@@ -5,12 +5,12 @@ To setup the project simply follow steps below:
 - Rename .env.example to .env
 - Update the database connection string on the renamed .env file to point to your local db
 - e.g 
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=tasks
-    DB_USERNAME=seskie  
-    DB_PASSWORD=seskiev
+    - DB_CONNECTION=mysql
+    - DB_HOST=127.0.0.1
+    - DB_PORT=3306
+    - DB_DATABASE=tasks
+    - DB_USERNAME=seskie  
+    - DB_PASSWORD=seskiev
 - Run command: composer update to download the needed packages by the framework
 - Set permissions on the project to 755 or 777 since its a local project, for detailed instruction please refer to: https://www.hostinger.com/tutorials/how-to-install-laravel-on-ubuntu
 - Run command: php artisan migrate to run the database migration, the migration command will create a table named tasks on your database, the database migration file can be found on app/database/migration/2024_03_09_111734_create_tasks_table.php 
