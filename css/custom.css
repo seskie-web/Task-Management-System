@@ -1,0 +1,13 @@
+/* Increase z-index of Datepicker */
+.ui-datepicker {
+    z-index: 9999 !important;
+}
+
+/* Decrease z-index of modal backdrop */
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    max-width: 100px !important;
+}
