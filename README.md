@@ -4,7 +4,8 @@ The system allows users to create, edit, and delete tasks via a front-end which 
 
 The front-end is written on
 - HTML, CSS, Bootstrap, JavaScript, jQuery, AJAX, Smarty Template
-Backend
+
+Backend 
 - Laravel REST API
 
 The front-end sends requests to a backend service to perform crud functionalities
